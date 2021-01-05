@@ -1,0 +1,372 @@
+index.html:
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="/Kurulum/Bootstrap/bootstrap.css" />
+  <link rel="stylesheet" href="/Css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+  <title>Homepage</title>
+</head>
+
+<body>
+  <section id="Homepage">
+    <div id="firstcont" class="container-fluid">
+      <nav id="upbar" class="navbar">
+        <div class="container-fluid">
+          <a href="#" class="navbar-brand ms-5"><img src="/images/logo-nussli.png" alt="logo" /></a>
+          <form class="d-flex me-1">
+            <a href="/projects.html" class="nav-link  text-white fw-bold">Projects</a>
+            <a href="#service" class="nav-link  text-white fw-bold">Service</a>
+            <a href="#products" class="nav-link  text-white fw-bold">Products</a>
+            <a href="#" class="nav-link  text-white fw-bold">Career</a>
+            <a href="#" class="nav-link  text-white fw-bold">Contacts</a>
+            <a href="#" class="nav-link  text-white fw-bold"><i class="fas fa-search"></i></a>
+          </form>
+        </div>
+      </nav>
+      <img id="dots" class="img-fluid float-end me-5" src="/images/dots.png" alt="dots" />
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-7">
+            <div class="passion bg-white text-center ms-5">
+              <h3 class="fw-bold pt-5 fs-2">
+                Passion for Temporary Structures
+              </h3>
+              <img id="purple" class="img-fluid float-start mt-1" src="./images/purpleRectangle.png" alt="" />
+              <br />
+              <p class="text-start mt-4 mb-4 fs-5">
+                NUSSLI is a global leader in the provision of <br />
+                temporary structures for sporting, cultural and <br />
+                business events. We offer you invidually tailored <br />
+                solutions, from the initial concept to final <br />
+                implementation. Benefit from short completion <br />
+                times and our high level of quality. Take a stroll <br />
+                with us through this behind-the-scenes look at <br />
+                NUSSLI, and get to know us better.
+              </p>
+
+              <p id="read" class="text-start pt-1">
+                Read More<img src="/images/arrow_forward_24px.png" alt="arrow" />
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-5 ">
+            <div class="bluerec">
+              <p class="text-white fw-bolder fs-2 text-center py-3 px-5">
+                <span class="float-start" id="expo">EXPO</span> <br />
+                <span>2020 Dubai</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8"></div>
+          <div class="col-md-4">
+            <div class="stad">
+              <img id="stadium" class="img-fluid" src="/images/madeit.png" alt="green" />
+            </div>
+            <!-- <img src="/images/backrec.png" alt="greenback" /> -->
+          </div>
+        </div>
+      </div>
+      <br /><br />
+      <br />
+      <br />
+    </div>
+  </section>
+  <br /><br />
+  <section id="what">
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <h2 class="fw-bold pb-2 pt-5">What We Have</h2>
+          <img id="whatline" class="img-fluid" src="/images/whatrect.png" alt="what" />
+          <br /><br /><br />
+        </div>
+        <div id="purpleh1" class="row mb-5 pb-5">
+          <div class="col-md-3 text-center">
+            <h1>300,000</h1>
+            <h3>Seats</h3>
+          </div>
+          <div class="col-md-3 text-center">
+            <h1>400</h1>
+            <h3>Employees</h3>
+          </div>
+          <div class="col-md-3 text-center">
+            <h1>80+</h1>
+            <h3>Awards</h3>
+          </div>
+          <div class="col-md-3 text-center">
+            <h1>2000</h1>
+            <h3>Projects</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="footer">
+    <h1>efe</h1>
+  </section>
+
+  <script src="/Kurulum/Bootstrap/bootstrap.js"></script>
+</body>
+
+</html>
+
+
+
+projects.html:
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/Kurulum/Bootstrap/bootstrap.css" />
+    <link rel="stylesheet" href="/Css/style.css" />
+    <title>Our Projects</title>
+</head>
+
+<body>
+    <div class="container">
+        <h3 class="pt-3 fw-bold pb-2">Our Projects</h3>
+        <img id="projectline" class="pb-4" src="/images/purpleproject.png" alt="purpleproject">
+        <div class="row">
+            <br>
+            <div class="col-md-6">
+                <h1 class="pb-2 fw-bold">Trade Fair Booth Seat</h1>
+                <div class="business text-center">
+                    <p><img src="/images/bagicon.png" alt="bag">Business</p>
+                </div>
+                <p id="proparag" class="text-start mt-4 mb-4 fs-5">For the 88th time, the automobile is being <br>
+                    celebrated in Geneva. Over a total exhibition <br> area of 102,000 square meters, around 700 <br>
+                    brands are showcasing the first new European<br> automobile products and inovations of the <br> year
+                    -
+                    Škoda, Seat and Volkswagen.<br>The automobile manufacturers are presenting<br> itselfs with a new
+                    exhibition stand, built by<br> NUSSLI and AMBROSIUS.
+                </p>
+                <p id="proread" class="text-start pt-1 pb-3">
+                    Read More<img src="/images/arrow_forward_24px.png" alt="arrow" />
+                </p>
+                <img src="/images/prodots.png" alt="prodots">
+            </div>
+            <div class="col-md-6">
+                <img id="cars" src="/images/cars.png" alt="carss">
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="/Kurulum/Bootstrap/bootstrap.js"></script>
+</body>
+
+</html>
+
+
+
+style.css:
+
+
+@font-face {
+  font-family: metropolis;
+  src: url("/metropolis/Metropolis-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: metropolis-bold;
+  src: url("/metropolis/Metropolis-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: metropolis-bolder;
+  src: url("/metropolis/Metropolis-ExtraBold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: metropolis-semibold;
+  src: url("/metropolis/Metropolis-SemiBold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: metropolis-medium;
+  src: url("/metropolis/Metropolis-Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: metropolis-extrabold;
+  src: url("/metropolis/Metropolis-ExtraBold.otf") format("opentype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#Homepage {
+  width: 98.9vw;
+  height: 115vh;
+  background-image: url(/images/homepage1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#Homepage #firstcont {
+  height: 40vh;
+  background: linear-gradient(to top, transparent, rgba(0, 0, 0, 0.7));
+}
+
+#Homepage #Homepage img {
+  margin-left: 10rem;
+}
+
+#upbar {
+  margin-right: 20px;
+  font-family: metropolis;
+}
+
+#upbar .d-flex a {
+  margin-left: 55px;
+}
+
+#firstcont #dots {
+  margin-top: 100px;
+}
+
+.passion {
+  /* border: 1px solid red; */
+  font-family: metropolis;
+  height: 600px;
+  margin-top: 580px;
+  box-shadow: 1px 1px 20px 0px #979797;
+}
+
+.passion h3 {
+  color: #404040;
+  font-family: metropolis-bold;
+}
+
+.passion p {
+  color: #3d3d3d;
+  padding-left: 4rem;
+  line-height: 2.5rem;
+  font-family: metropolis-medium;
+}
+
+.passion #read {
+  font-family: metropolis-semibold;
+  font-size: 1.3rem;
+  color: #7a50ff;
+}
+
+.passion #purple {
+  padding-left: 4rem;
+}
+
+.bluerec {
+  background-image: url(/images/blueback.png);
+  margin-top: 18rem;
+  margin-right: -2rem;
+  padding-top: 25px;
+  font-family: metropolis-extrabold;
+}
+
+.bluerec span {
+  font-size: 3.5rem;
+}
+
+.bluerec #expo {
+  padding-left: 3.2rem;
+  font-size: 2rem;
+}
+
+.row #stadium {
+  width: 369px; /*409*/
+  height: 528px; /*568*/
+  margin-top: -450px;
+  margin-left: -70px;
+}
+
+#what {
+  margin-top: 100vh; /* */
+  background-color: #f7f9ff;
+  font-family: metropolis-bold;
+  height: 60vh;
+}
+
+#what #whatline {
+  width: 130px;
+  height: 5px;
+}
+
+#what #purpleh1 {
+  margin-left: -70px;
+}
+
+#what #purpleh1 h3 {
+  color: #404040;
+}
+
+#what #purpleh1 h1 {
+  color: #7a50ff;
+  font-size: 50px;
+}
+
+/* Our Projects */
+
+.container #projectline {
+  width: 95px;
+}
+
+.container .business {
+  background-color: #e8e1ff;
+  display: inline-block;
+  padding: 0px 20px;
+  border-radius: 10px;
+  height: 38px;
+}
+
+.container .business p {
+  color: #7a50ff;
+  font-family: metropolis-medium;
+  padding-top: 8px;
+}
+
+.container .business img {
+  margin-top: -5px;
+  margin-right: 10px;
+}
+
+.container #proparag {
+  line-height: 2.5rem;
+  font-family: metropolis-medium;
+}
+.container #proread {
+  font-family: metropolis-semibold;
+  font-size: 1.3rem;
+  color: #7a50ff;
+}
+.container #cars {
+  margin-top: 5rem;
+  width: 481px; /*541*/
+  height: 598px; /*658*/
+}
+
+
+
